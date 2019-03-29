@@ -53,7 +53,7 @@ public class ClaseControlador implements ActionListener, WindowListener {
 		int resultado;
 		if(boton.equals(objVista.calcular)) {
 			resultado = objModelo.CalcularLetras(objVista.palabra.getText());
-			objVista.palabra.setText(Integer.toString(resultado));
+			objVista.numero.setText(Integer.toString(resultado));
 		}
 	}
 
